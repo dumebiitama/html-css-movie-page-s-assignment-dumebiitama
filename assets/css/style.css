@@ -85,6 +85,14 @@ h1 {
   text-align: justify;
 }
 
+#container2 figure img {
+  width: 100%;
+}
+
+#synopsis {
+  display: flex;
+}
+
 .footer {
   border-top: 8px solid darkblue;
   height: 5vh;
@@ -96,6 +104,19 @@ h1 {
   background: lightblue;
   z-index: 0;
 }
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal;
+}
+
 
 @font-face {
   font-family: newFont;
