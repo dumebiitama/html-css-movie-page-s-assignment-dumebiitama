@@ -62,11 +62,11 @@ nav > div {
 h1 {
   margin-bottom: 10px;
   margin-top: 20px;
-  font-size: 36px;
+  font-size: 70px;
   margin-left: 20px;
   line-height: 45px;
-  color: greenyellow;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: teal;
+  font-family: newFont;
 }
 
 #myPic {
@@ -79,6 +79,25 @@ h1 {
 #container2 p{
   margin-top: 50px;
   font-size: 30px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: teal;
+  font-family: 'Red Rose', cursive;
   margin-left: 20px;
+  text-align: justify;
+}
+
+.footer {
+  border-top: 8px solid darkblue;
+  height: 5vh;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background: lightblue;
+  z-index: 0;
+}
+
+@font-face {
+  font-family: newFont;
+  src: url('../fonts/JulietteGarden-owXD4.ttf');
 }
