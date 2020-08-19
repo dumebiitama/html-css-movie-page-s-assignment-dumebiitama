@@ -9,3 +9,15 @@ body {
   color: #777777;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+#yourName {
+  position: relative;
+  text-align: center;
+  line-height: 50px;
+  top: 0;
+  left: 10%;
+  width: 200px;
+  height: 10vh;
+  background: darkblue;
+  color: #cccccc;
+}
