@@ -7,7 +7,7 @@ body {
   font-size: 24px;
   line-height: 32px;
   color: #777777;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Red Rose', cursive;
 }
 
 #container {
@@ -22,7 +22,7 @@ body {
   z-index: 0;
 }
 
-#yourName {
+#myName {
   position: relative;
   text-align: center;
   line-height: 50px;
@@ -31,7 +31,9 @@ body {
   width: 200px;
   height: 10vh;
   background: darkblue;
-  color: #cccccc;
+  color: lightcyan;
+  font-family: newFont;
+  font-size: 55px;
 }
 
 nav {
@@ -115,6 +117,32 @@ h1 {
   position: absolute;
   width: 1px;
   word-wrap: normal;
+}
+
+input[type=text], select, textarea {
+  width: 80%; 
+  padding: 12px;  
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  margin-left: 20px;
+  resize: vertical 
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
 }
 
 
